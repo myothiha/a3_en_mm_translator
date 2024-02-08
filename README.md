@@ -2,17 +2,19 @@
 
 - [Student Information](#student-information)
 - [Files Structure](#files-structure)
-- [Task 1 - Dataset](#task-1---dataset)
-- [Task 2 - Model Training](#task-2---model-training)
-    - [Data Preprocessing](#data-preprocessing)
-    - [Model Architecture](#model-architecture)
-    - [Training Process](#training-process)
-    - [Hyperparameters](#hyperparameters)
-- [Task 3 - Web Application](#task-3---web-application)
+- [Task 1](#task-1)
+   - [Dataset](#dataset)
+   - [Data Preprocessing](#data-preprocessing)
+   - [Tokenizing](#tokenizing)
+- [Task 2](#task-2)
+- [Task 3 - Evaluation and Verification](#task-3---evaluation-and-verification)
+   - [Performance Plots](#performance-plots)
+   - [Attention Maps](#attention-maps)
+   - [Result Discussion](#result-discussion)
+- [Task 4 - Web Application](#task-4---web-application)
     - [How to run](#how-to-run)
     - [Usage](#usage)
     - [Documentation](#documentation)
-- [Result](#result)
 
 ## Student Information
  - Name: Myo Thiha
@@ -43,7 +45,9 @@
 - To tokenize myanmar text, I am going to use `pyidaungsu` python library from https://pypi.org/project/pyidaungsu/
 - It supports word level tokenization of myanmar text. e.g. `pds.tokenize("ဖေဖေနဲ့မေမေ၏ကျေးဇူးတရားမှာကြီးမားလှပေသည်", form="word")`
 
-## Task 2 - Experiment with Attention Mechanisms
+## Task 2
+
+### Experiment with Attention Mechanisms
 
 | Attentions          | Training Loss | Training PPL | Validation Loss | Validation PPL | 
 |----------------|-------------|---------------|---------------|--------------------|
@@ -65,7 +69,7 @@
 #### Multiplicative
 <img src="results/multiplicative.png" alt="multiplicative_attention" width="500"/>
 
-#### Attention Maps
+### Attention Maps
 
 #### General
 <img src="results/am_general.png" alt="general_attention" width="500"/>
