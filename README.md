@@ -43,7 +43,9 @@
 
 ### Tokenizing
 - To tokenize myanmar text, I am going to use `pyidaungsu` python library from https://pypi.org/project/pyidaungsu/
-- It supports word level tokenization of myanmar text. e.g. `pds.tokenize("ဖေဖေနဲ့မေမေ၏ကျေးဇူးတရားမှာကြီးမားလှပေသည်", form="word")`
+- It supports word level tokenization of myanmar text. 
+- e.g. `pds.tokenize("ဖေဖေနဲ့မေမေ၏ကျေးဇူးတရားမှာကြီးမားလှပေသည်", form="word")`
+- output: `>> ['ဖေဖေ', 'နဲ့', 'မေမေ', '၏', 'ကျေးဇူးတရား', 'မှာ', 'ကြီးမား', 'လှ', 'ပေ', 'သည်']`
 
 ## Task 2 - Experiment with Attention Mechanisms
 
