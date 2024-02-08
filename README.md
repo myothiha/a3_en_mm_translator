@@ -2,11 +2,11 @@
 
 - [Student Information](#student-information)
 - [Files Structure](#files-structure)
-- [Task 1](#task-1)
+- [Task 1 - Get Language Pair](#task-1---get-language-pair)
    - [Dataset](#dataset)
-   - [Data Preprocessing](#data-preprocessing)
+   - [Preprocessing](#preprocessing)
    - [Tokenizing](#tokenizing)
-- [Task 2](#task-2)
+- [Task 2 - Experiment with Attention Mechanisms](#task-2---experiment-with-attention-mechanisms)
 - [Task 3 - Evaluation and Verification](#task-3---evaluation-and-verification)
    - [Performance Plots](#performance-plots)
    - [Attention Maps](#attention-maps)
@@ -28,7 +28,7 @@
     - `template` folder to hold the HTML pages.
     - `models` folder which contains Pytorch model exports and its metadata file.
 
-## Task 1
+## Task 1 - Get Language Pair
 
 ### Dataset
 - Source: https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/
@@ -45,9 +45,7 @@
 - To tokenize myanmar text, I am going to use `pyidaungsu` python library from https://pypi.org/project/pyidaungsu/
 - It supports word level tokenization of myanmar text. e.g. `pds.tokenize("ဖေဖေနဲ့မေမေ၏ကျေးဇူးတရားမှာကြီးမားလှပေသည်", form="word")`
 
-## Task 2
-
-### Experiment with Attention Mechanisms
+## Task 2 - Experiment with Attention Mechanisms
 
 | Attentions          | Training Loss | Training PPL | Validation Loss | Validation PPL | 
 |----------------|-------------|---------------|---------------|--------------------|
