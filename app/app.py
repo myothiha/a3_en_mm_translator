@@ -65,8 +65,8 @@ model.apply(initialize_weights)
 def index():
     return render_template("index.html")
 
-@app.route('/generate', methods=['POST'])
-def generate_jokes():
+@app.route('/translate', methods=['POST'])
+def translate():
 
     print('hiii', model.load_state_dict(torch.load("models/Seq2SeqTransformer-additive.pt", map_location=device)))
 
