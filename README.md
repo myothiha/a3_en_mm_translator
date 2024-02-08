@@ -32,7 +32,7 @@
 
 ### Dataset
 - Source: https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/
-- The corpus consistis of text files for englis and asian languages. I download text files with english and myanmar text.
+- The corpus consistis of text files for english and asian languages. I download text files with english and myanmar text.
 - Then, I split it into training, validation and testing sets: 187641, 20850 and 23166 records respectively.
 
 ### Preprocessing
